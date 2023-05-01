@@ -131,6 +131,7 @@ footer {
       rgba(39, 32, 68, 0.9)
     ),
     url("../images/header-bg.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -253,5 +254,10 @@ section.secondary {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  #warum-dresden,
+  footer {
+    text-align: center;
   }
 }
